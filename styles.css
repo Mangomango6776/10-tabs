@@ -1,0 +1,58 @@
+html {
+    background-color:rgb(91, 115, 18);
+}
+
+code {
+    background-color: rgba(0,0,0,0.3);
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.site-heading {
+    color: rgb(47, 114, 47);
+}
+
+.site-header {
+    background-color: rgb(144, 174, 99);
+    border-radius: 20px 20px 0 0;
+    padding: 20px 20px 0 20px;
+}
+
+.site-main {
+    background-color: rgb(240, 228, 203);
+    border-radius: 0 0 20px 20px;
+    padding: 20px;
+}
+
+.site-nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 16px 0 0 0;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.site-nav li {
+    flex: 1 1 0;
+}
+
+.nav-link {
+    background-color: rgb(28, 100, 28);
+    display: block;
+    padding: 14px 0;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: rgb(77, 129, 77);
+}
+
+.current-page {
+    background-color: rgb(240, 228, 203);
+}
