@@ -1,5 +1,8 @@
 html {
     background-color:rgb(91, 115, 18);
+    font-family: "hatch-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 code {
@@ -27,6 +30,10 @@ code {
     padding: 20px;
 }
 
+.site-color {
+    color: rgb(77, 116, 0);
+}
+
 .site-nav {
     display: flex;
     list-style-type: none;
@@ -47,6 +54,7 @@ code {
     border-radius: 10px 10px 0 0;
     text-align: center;
     text-decoration: none;
+    color: rgb(191, 247, 78);
 }
 
 .nav-link:hover {
@@ -55,4 +63,5 @@ code {
 
 .current-page {
     background-color: rgb(240, 228, 203);
+    color: rgb(89, 109, 12);
 }
